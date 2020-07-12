@@ -11,10 +11,10 @@ function RouterConfig() {
     <div>
       <Rounter>
          <Switch>
-          <Route path="/" component={Home}>
-          <Route path="/" component={About}>
-          <Route path="/" component={Product}>
-          <Route path="/" component={ProductItem}>
+          <Route path="/Home" component={Home}>
+          <Route path="/About" component={About}>
+          <Route path="/Product" component={Product}>
+          <Route path="/Product/:id" component={ProductItem}>
         </Switch>
       </Rounter>
     </div>
