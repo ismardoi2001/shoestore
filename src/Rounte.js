@@ -4,17 +4,20 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Product from './Components/Product';
 import ProductItem from './Components/Productitem';
+import Navbar from './Components/Navbar';
 
 function RouteConfig() {
 
   return (
     <div>
+    <Navbar/>
       <Rounter>
          <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/About" component={About}/>
           <Route path="/Product" component={Product}/>
           <Route path="/Product/:id" component={ProductItem}/>
+          <Route path="*" component={()=><h2> 404 Page Not Found</h2>}/>
         </Switch>
       </Rounter>
     </div>
