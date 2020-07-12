@@ -5,13 +5,13 @@ import About from './Components/About';
 import Product from './Components/Product';
 import ProductItem from './Components/Productitem';
 
-function RouterConfig() {
+function RouteConfig() {
 
   return (
     <div>
       <Rounter>
          <Switch>
-          <Route path="/Home" component={Home}>
+          <Route path="/" component={Home}>
           <Route path="/About" component={About}>
           <Route path="/Product" component={Product}>
           <Route path="/Product/:id" component={ProductItem}>
@@ -21,4 +21,4 @@ function RouterConfig() {
   );
 }
 
-export default RouterConfig;
+export default RouteConfig;

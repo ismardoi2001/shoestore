@@ -3,12 +3,11 @@ import './App.css';
 import Routes from './Rounte.js';
 
 function App() {
+
   return (
   <div>
-<Routes />
-    
-      
-    </div>
+    <Routes />
+  </div>
   );
 }
 
