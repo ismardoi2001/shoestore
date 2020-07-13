@@ -5,7 +5,9 @@ productContainer{
 }
 
 .productContainer > div {
-  width: 200px;
   align-items: center;
-  box-shadow: 0 0 10px #522121;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 10px #463636;
+  margin: 10px;
 }
