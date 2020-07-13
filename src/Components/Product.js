@@ -12,7 +12,7 @@ console.log(Shoes)
           {Object.keys(Shoes).map(keyName=>{
             const shoe = Shoes[keyName];
             return (<div key={keyName}>
-              <h2>{shoe.name}</h2>
+              <h4>{shoe.name}</h4>
               <img src={shoe.img} height={150}/>
              </div> )
 
