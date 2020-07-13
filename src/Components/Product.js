@@ -3,7 +3,7 @@ import Shoes from './../Shoes.json';
 function Product() {
 
 console.log(Shoes)
-console.log(Object.keys(Shoes))
+
     return (
         <div>
           <h1>Welcome To Product</h1> 
