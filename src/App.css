@@ -1,5 +1,11 @@
-.productContainer{
+productContainer{
   display: flex;
   flex-wrap: wrap;
   
+}
+
+.productContainer > div {
+  width: 200px;
+  align-items: center;
+  box-shadow: 0 0 10px #522121;
 }
