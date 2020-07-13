@@ -6,7 +6,7 @@ console.log(Shoes)
 
     return (
         <div>
-          <h1>Welcome To Product</h1> 
+          <h1> Welcome To Product </h1> 
           <div>
           
           {Object.keys(Shoes).map(keyName=>{
@@ -15,7 +15,7 @@ console.log(Shoes)
               <h2>{shoe.name}</h2>
               <img src={shoe.img} height={150}/>
              </div> )
-             
+
           })}
           </div> 
         </div>
