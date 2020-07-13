@@ -15,6 +15,7 @@ console.log(Shoes)
               <h2>{shoe.name}</h2>
               <img src={shoe.img} height={150}/>
              </div> )
+             
           })}
           </div> 
         </div>
