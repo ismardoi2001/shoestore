@@ -5,6 +5,7 @@ function Product() {
 console.log(Shoes)
 
     return (
+      
         <div>
           <h1> Welcome To Product </h1> 
           <div className="productContainer">
@@ -16,7 +17,6 @@ console.log(Shoes)
               <h4>{shoe.name}</h4>
               <img src={shoe.img} height={150}/>
              </div> )
-
           })}
           </div> 
         </div>
