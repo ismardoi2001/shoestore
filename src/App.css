@@ -15,7 +15,6 @@ body{
   margin: 10px;
 }
 
-
 .productContainer > div:hover {
-background-color: #fffdfd
+background-color: #dad0d0
 }
