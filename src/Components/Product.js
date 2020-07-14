@@ -12,6 +12,7 @@ console.log(Shoes)
           {Object.keys(Shoes).map(keyName=>{
             const shoe = Shoes[keyName];
             return (<div key={keyName}>
+              <link key={keyName}></link>
               <h4>{shoe.name}</h4>
               <img src={shoe.img} height={150}/>
              </div> )
