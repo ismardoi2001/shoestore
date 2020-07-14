@@ -5,7 +5,6 @@ body{
 .productContainer{
   display: flex;
   flex-wrap: wrap;
-  
 }
 .productContainer > div {
   align-items: center;
